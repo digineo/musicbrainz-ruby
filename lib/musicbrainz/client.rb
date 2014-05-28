@@ -91,7 +91,7 @@ module MusicBrainz
         raise response.message
       end
 
-      Mash.new(response).metadata
+      response
     end
   end
 end
